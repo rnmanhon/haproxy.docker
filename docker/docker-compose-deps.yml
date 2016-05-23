@@ -1,0 +1,10 @@
+haproxy:
+  container_name: haproxy
+  image: haproxy:1.6
+  ports:
+    - 1883:1883
+  volumes:
+    - ${HAPROXY_HOME}/config/haproxy/haproxy.cfg:/usr/local/etc/haproxy/haproxy.cfg
+
+
+

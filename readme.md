@@ -1,0 +1,1 @@
+export HAPROXY_HOME=$PWD
